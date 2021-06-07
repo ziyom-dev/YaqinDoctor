@@ -266,10 +266,6 @@
 }
 
 @media screen and (max-width:375px) {
-	.social-list a {
-    width: 45px;
-    height: 45px;
-}
     .section-2 .section-header .title {
         font-size: 18px;
         width: 100%;
@@ -296,6 +292,10 @@
     .slider .slider-item {
         margin-top: 7%;
     }
+    .social-list a {
+    width: 45px;
+    height: 45px;
+}
 }
 
 @media screen and (max-width:320px) {

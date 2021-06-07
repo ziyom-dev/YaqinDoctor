@@ -52,8 +52,18 @@ footer .navbar {
     color: #000000;
 }
 
+.translate {
+    border: 0;
+    background: transparent;
+}
+
+.translate img {
+    height: 10px;
+    margin-right: 5px;
+}
+
 .copyright,
-.lang,
+.translate,
 .telegram-link {
     color: #000000;
     display: flex;
