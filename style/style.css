@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+@media screen and (min-width:1441px) {}
+
 a:hover {
     text-decoration: none;
 }
@@ -46,7 +48,7 @@ footer {
 
 header .navbar,
 footer .navbar {
-    font-size: 30px;
+    font-size: 22px;
     color: #000000;
 }
 
@@ -70,7 +72,7 @@ footer .navbar {
 }
 
 .section-3 .title {
-    font-size: 60px;
+    font-size: 34px;
     color: #FFFFFF;
     margin-bottom: 50px;
     text-align: center;
@@ -100,13 +102,13 @@ footer .navbar {
 }
 
 .about-text {
-    font-size: 42px;
+    font-size: 24px;
     line-height: 130%;
     text-align: center;
     color: #000000;
     background-color: white;
     border-radius: 70px;
-    padding: 30px 75px;
+    padding: 15px 35px;
 }
 
 .right-about {
@@ -120,19 +122,20 @@ footer .navbar {
 }
 
 .right-about .about-text {
-    box-shadow: 25px 10px 0px 0px rgba(175, 233, 240, 1);
-    margin-right: 25px;
-    margin-bottom: 20px;
+    box-shadow: 15px 10px 0px 0px rgb(175, 233, 240);
+    margin-right: 15px;
+    margin-bottom: 15px;
 }
 
 .left-about .about-text {
-    box-shadow: -25px 10px 0px 0px rgba(175, 233, 240, 1);
-    margin-left: 25px;
-    margin-bottom: 20px;
+    box-shadow: -15px 10px 0px 0px rgba(175, 233, 240, 1);
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
 
+.left-about img,
 .right-about img {
-    width: 30px;
+    width: 15px;
 }
 
 .social-list {
@@ -141,11 +144,11 @@ footer .navbar {
 }
 
 .social-list a {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     background-color: blue;
     display: flex;
-    border-radius: 25px;
+    border-radius: 8px;
 }
 
 .social-block img {
@@ -164,7 +167,7 @@ footer .navbar {
 
 .section-2 .section-header .title {
     width: 50%;
-    font-size: 42px;
+    font-size: 24px;
     line-height: 130%;
     text-align: center;
     color: white;
@@ -177,8 +180,8 @@ footer .navbar {
     margin-right: 5px;
     margin-bottom: 5px;
     box-shadow: 5px 5px 0px 0px rgba(110, 235, 220, 1);
-    border-radius: 32px;
-    padding: 15px 20px;
+    border-radius: 15px;
+    padding: 8px 8px;
 }
 
 .slider {
@@ -191,7 +194,7 @@ footer .navbar {
 
 .slider .slider-item {
     width: 100%;
-    padding: 40px;
+    padding: 20px;
     position: relative;
 }
 
@@ -218,7 +221,7 @@ footer .navbar {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 svg {
@@ -228,8 +231,8 @@ svg {
 }
 
 #gooey-button {
-    padding: 1.5rem 2rem;
-    font-size: 2rem;
+    padding: 1rem;
+    font-size: 1.5rem;
     border: none;
     color: black;
     font-family: "Roboto";
