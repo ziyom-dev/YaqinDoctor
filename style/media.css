@@ -198,11 +198,13 @@
         margin-top: 25px;
     }
     .about {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .left-block {
         flex-direction: column-reverse;
-        margin-bottom: 20px;
+    }
+    .right-block {
+	margin-bottom: 20px;
     }
     .about-text {
         font-size: 24px;
