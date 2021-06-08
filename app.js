@@ -11,11 +11,11 @@ $.fn.toggleAttr = function(attr, attr1, attr2) {
 var arrLang = {
     'uz': {
         'thisLang': 'Uz',
-        'leftAbout': 'Endi buning uchun biz bor! Biz mutlaqo bepul xizmat va biz reytinglarni sotmaymiz!',
-        'rightAbout': 'Shifokor yoki amaliyotni qidiryapsizmi? Sinovlarni qaerdan olish kerakligini bilmaymanmi? Uy yoki ish yonida qidiryapsizmi? Narxlarni taqqoslashdan charchadingizmi?',
+        'leftAbout': 'Xavotir olmang! Endi bularning barchasi uchun biz bormiz! Va eng muhimi,Biz mutlaqo bepul xizmat korsatamiz va umuman reytinq sotmaymiz! ',
+        'rightAbout': 'Shifokorni yoki protsedurani izlayapsizmi?Tahlillarni qayerda topshirishni bilmayapsizmi? Uyingizga yoki ishingizga yaqinini qidiriyapsizmi? Yoki narxlarni taqqoslashdan charchadingizmi? ',
         'tryBtn': 'Sinab korish',
-        'socialTitle': 'Sog\'liqni saqlash masalalari bilan qiziqasizmi?<br> bizning blog o\'qish! Biz bilan oson, qiziqarli va qiziqarli!',
-        'footerTitle': 'Sizning sog\'lig\'ingizga g\'amxo\'rlik qilamiz!',
+        'socialTitle': 'Sog’liqni saqlash haqida mavzulariga qiziqiyapsizmi?<br> Bizning blogimizni o’qing! Chunki bu biz bilan oson, quvnoq va qiziqarli! i!',
+        'footerTitle': 'Biz sizning sog\'lig\'ingiz haqida qayg\'uramiz!',
     },
     'ru': {
         'thisLang': 'Ру',
