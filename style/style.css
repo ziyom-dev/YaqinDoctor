@@ -11,8 +11,13 @@ section {
     padding: 50px 0;
 }
 
+@font-face {
+    font-family: "Heartland";
+    src: url("Heartland.ttf");
+}
+
 body {
-    font-family: "Roboto";
+    font-family: "Heartland";
     font-weight: 700;
     background-color: #53ABF8;
 }
@@ -252,7 +257,7 @@ svg {
     font-size: 1.5rem;
     border: none;
     color: black;
-    font-family: "Roboto";
+    font-family: "Heartland";
     font-weight: 700;
     filter: url("#gooey");
     position: relative;
