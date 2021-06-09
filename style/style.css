@@ -105,6 +105,10 @@ footer .navbar {
     align-items: center;
 }
 
+.logo-block img {
+    width: 100%;
+}
+
 .about {
     display: flex;
     justify-content: space-between;

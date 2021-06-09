@@ -40,13 +40,28 @@ $.fn.toggleAttr = function(attr, attr1, attr2) {
     });
 };
 
+
+
+$(function() {
+
+
+    $('.translate').click(function() {
+        $('html').toggleAttr('lang', 'uz', 'ru');
+        var lang = $("html").attr('lang');
+
+        $('.lang').each(function(index, item) {
+            $(this).html(arrLang[lang][$(this).attr('key')]);
+        });
+    });
+});
+
 var arrLang = {
     'uz': {
         'thisLang': 'Uz',
-        'leftAbout': 'Xavotir olmang! Endi bularning barchasi uchun biz bormiz! Va eng muhimi,Biz mutlaqo bepul xizmat korsatamiz va umuman reytinq sotmaymiz! ',
-        'rightAbout': 'Shifokorni yoki protsedurani izlayapsizmi?Tahlillarni qayerda topshirishni bilmayapsizmi? Uyingizga yoki ishingizga yaqinini qidiriyapsizmi? Yoki narxlarni taqqoslashdan charchadingizmi? ',
+        'leftAbout': 'Xavotir olmang! Endi bularning barchasi uchun biz bormiz! Va eng muhimi, Biz mutlaqo bepul xizmat korsatamiz va umuman reytinq sotmaymiz! ',
+        'rightAbout': 'Shifokorni yoki protsedurani izlayapsizmi? Tahlillarni qayerda topshirishni bilmayapsizmi? Uyingizga yoki ishingizga yaqinini qidiriyapsizmi? Yoki narxlarni taqqoslashdan charchadingizmi? ',
         'tryBtn': 'Sinab korish',
-        'socialTitle': 'Sog’liqni saqlash haqida mavzulariga qiziqiyapsizmi?<br> Bizning blogimizni o’qing! Chunki bu biz bilan oson, quvnoq va qiziqarli! i!',
+        'socialTitle': 'Sog’liqni saqlash haqida mavzulariga qiziqiyapsizmi?<br> Bizning blogimizni o’qing! Chunki bu biz bilan oson, quvnoq va qiziqarli!',
         'footerTitle': 'Biz sizning sog\'lig\'ingiz haqida qayg\'uramiz!',
     },
     'ru': {
@@ -58,14 +73,3 @@ var arrLang = {
         'footerTitle': 'Мы заботимся о вашем здоровье!',
     }
 }
-
-$(function() {
-    $('.translate').click(function() {
-        var lang = $("html").attr('lang');
-        $('html').toggleAttr('lang', 'uz', 'ru');
-
-        $('.lang').each(function(index, item) {
-            $(this).html(arrLang[lang][$(this).attr('key')]);
-        });
-    });
-});
