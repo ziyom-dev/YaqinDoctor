@@ -16,6 +16,11 @@ section {
     src: url("Heartland.ttf");
 }
 
+@font-face {
+    font-family: "Adigiana";
+    src: url("adigiana.ttf");
+}
+
 body {
     font-family: "Heartland";
     font-weight: 700;
@@ -28,6 +33,7 @@ footer {
     background: white;
     display: flex;
     align-items: center;
+    font-family: "Adigiana";
 }
 
 header {
