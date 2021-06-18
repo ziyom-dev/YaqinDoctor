@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @media screen and (max-width:1440px) {
     header,
     footer {
@@ -49,11 +56,13 @@
         padding: 15px 50px;
     }
     .left-about .about-text {
+        -webkit-box-shadow: -10px 5px 0px 0px rgba(175, 233, 240, 1);
         box-shadow: -10px 5px 0px 0px rgba(175, 233, 240, 1);
         margin-left: 10px;
         margin-bottom: 15px;
     }
     .right-about .about-text {
+        -webkit-box-shadow: 10px 5px 0px 0px rgb(175, 233, 240);
         box-shadow: 10px 5px 0px 0px rgb(175, 233, 240);
         margin-right: 10px;
         margin-bottom: 15px;
@@ -79,6 +88,7 @@
     }
     .social-list {
         margin-right: 3px;
+        -webkit-box-shadow: 3px 3px 0px 0px rgb(110, 235, 220);
         box-shadow: 3px 3px 0px 0px rgb(110, 235, 220);
     }
     .slider {
@@ -98,6 +108,8 @@
         padding: 0 20px;
     }
     .about {
+        -webkit-column-gap: 50px;
+        -moz-column-gap: 50px;
         column-gap: 50px;
     }
     .about-text {
@@ -138,6 +150,8 @@
         padding: 0;
     }
     .about {
+        -webkit-column-gap: 20px;
+        -moz-column-gap: 20px;
         column-gap: 20px;
     }
     .about-text {
@@ -198,13 +212,19 @@
         margin-top: 25px;
     }
     .about {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
         flex-direction: column-reverse;
     }
     .left-block {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
         flex-direction: column-reverse;
     }
     .right-block {
-	margin-bottom: 20px;
+        margin-bottom: 20px;
     }
     .about-text {
         font-size: 24px;
@@ -220,11 +240,18 @@
         font-size: 1.5rem;
     }
     .social-block {
+        width: -webkit-max-content;
+        width: -moz-max-content;
         width: max-content;
         margin-left: auto;
     }
     .section-2 .section-header {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
     }
     .section-2 .section-header .title {
@@ -232,7 +259,10 @@
         width: 80%;
     }
     .slider {
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
     .slider .slider-item {
@@ -293,9 +323,9 @@
         margin-top: 7%;
     }
     .social-list a {
-    width: 45px;
-    height: 45px;
-}
+        width: 45px;
+        height: 45px;
+    }
 }
 
 @media screen and (max-width:320px) {
