@@ -22,7 +22,7 @@ section {
 }
 
 body {
-    font-family: "Heartland";
+    font-family: "Adigiana";
     font-weight: 700;
     background-color: #53ABF8;
 }
@@ -95,7 +95,7 @@ footer .navbar {
     color: #FFFFFF;
     margin-bottom: 50px;
     text-align: center;
-    font-family: "Roboto";
+    font-family: "Adigiana";
     font-weight: 700;
 }
 
@@ -203,7 +203,7 @@ footer .navbar {
     line-height: 130%;
     text-align: center;
     color: white;
-    font-family: "Roboto";
+    font-family: "Adigiana";
     font-weight: 700;
 }
 
@@ -267,7 +267,7 @@ svg {
     font-size: 1.5rem;
     border: none;
     color: black;
-    font-family: "Heartland";
+    font-family: "Adigiana";
     font-weight: 700;
     filter: url("#gooey");
     position: relative;
