@@ -22,9 +22,6 @@
         font-size: 24px;
         padding: 15px 50px;
     }
-    .section-2 .section-header .title {
-        font-size: 24px;
-    }
     section {
         padding: 35px 0;
     }
@@ -70,12 +67,6 @@
     }
     section {
         padding: 25px 0;
-    }
-    #gooey-button {
-        font-size: 1.5rem;
-    }
-    .doc-btn {
-        margin-top: 35px;
     }
     .social-list a {
         width: 40px;
@@ -126,9 +117,6 @@
     .social-list {
         border-radius: 10px;
     }
-    #gooey-button {
-        padding: 1rem;
-    }
     .slider {
         margin-top: 20px;
     }
@@ -164,19 +152,6 @@
     .left-about {
         margin-top: 10px;
     }
-    #gooey-button .bubbles .bubble:nth-child(1),
-    #gooey-button .bubbles .bubble:nth-child(2),
-    #gooey-button .bubbles .bubble:nth-child(3),
-    #gooey-button .bubbles .bubble:nth-child(4),
-    #gooey-button .bubbles .bubble:nth-child(5),
-    #gooey-button .bubbles .bubble:nth-child(6),
-    #gooey-button .bubbles .bubble:nth-child(7),
-    #gooey-button .bubbles .bubble:nth-child(8),
-    #gooey-button .bubbles .bubble:nth-child(9),
-    #gooey-button .bubbles .bubble:nth-child(10) {
-        width: 15px;
-        height: 15px;
-    }
     .slider .slider-item {
         padding: 10px;
     }
@@ -195,12 +170,6 @@
 }
 
 @media screen and (max-width:540px) {
-    #gooey-button {
-        font-size: 1rem;
-    }
-    .doc-btn {
-        margin-top: 25px;
-    }
     .about {
         flex-direction: column-reverse;
     }
@@ -221,9 +190,6 @@
     .left-about img,
     .right-about img {
         width: 15px;
-    }
-    #gooey-button {
-        font-size: 1.5rem;
     }
     .social-block {
         width: max-content;
