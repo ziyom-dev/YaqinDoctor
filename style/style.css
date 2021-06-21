@@ -160,7 +160,7 @@ footer .navbar {
 }
 
 .about-text {
-    font-size: 24px;
+    font-size: 26px;
     line-height: 130%;
     text-align: center;
     color: #000000;
@@ -330,6 +330,10 @@ svg {
     position: relative;
     background-color: #AFE9F0;
     border-radius: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    -webkit-box-shadow: 4px 4px 0px 0px rgba(110, 235, 220, 1);
+    box-shadow: 4px 4px 0px 0px rgba(110, 235, 220, 1);
 }
 
 #gooey-button p {

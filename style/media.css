@@ -19,8 +19,11 @@
         height: 25px;
     }
     .about-text {
-        font-size: 18px;
-        padding: 15px 70px;
+        font-size: 24px;
+        padding: 15px 50px;
+    }
+    .section-2 .section-header .title {
+        font-size: 24px;
     }
     section {
         padding: 35px 0;
@@ -30,9 +33,6 @@
     }
     .left-about {
         margin-top: 20px;
-    }
-    #gooey-button {
-        font-size: 1.25rem;
     }
 }
 
@@ -52,8 +52,11 @@
         border-radius: 15px 15px 0 0;
     }
     .about-text {
-        font-size: 16px;
-        padding: 15px 50px;
+        font-size: 20px;
+        padding: 15px 35px;
+    }
+    .section-2 .section-header .title {
+        font-size: 20px;
     }
     .left-about .about-text {
         -webkit-box-shadow: -10px 5px 0px 0px rgba(175, 233, 240, 1);
@@ -71,13 +74,10 @@
         padding: 25px 0;
     }
     #gooey-button {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     .doc-btn {
         margin-top: 35px;
-    }
-    .section-2 .section-header .title {
-        font-size: 20px;
     }
     .social-list a {
         width: 40px;
@@ -110,10 +110,10 @@
     .about {
         -webkit-column-gap: 50px;
         -moz-column-gap: 50px;
-        column-gap: 50px;
+        column-gap: 32px;
     }
     .about-text {
-        padding: 15px 30px;
+        padding: 15px 10px;
         border-radius: 30px;
     }
     header .navbar,
@@ -124,9 +124,6 @@
     .telegram-link img {
         height: 20px;
     }
-    .section-2 .section-header .title {
-        font-size: 16px;
-    }
     .social-list a {
         width: 32px;
         height: 32px;
@@ -135,7 +132,7 @@
         border-radius: 10px;
     }
     #gooey-button {
-        padding: 0.75rem;
+        padding: 1rem;
     }
     .slider {
         margin-top: 20px;
@@ -155,7 +152,10 @@
         column-gap: 20px;
     }
     .about-text {
-        font-size: 12px;
+        font-size: 16px;
+    }
+    .section-2 .section-header .title {
+        font-size: 16px;
     }
     .left-about .about-text,
     .right-about .about-text {
@@ -184,9 +184,6 @@
         width: 15px;
         height: 15px;
     }
-    .section-2 .section-header .title {
-        font-size: 14px;
-    }
     .slider .slider-item {
         padding: 10px;
     }
@@ -206,7 +203,7 @@
 
 @media screen and (max-width:540px) {
     #gooey-button {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     .doc-btn {
         margin-top: 25px;
@@ -227,14 +224,16 @@
         margin-bottom: 20px;
     }
     .about-text {
-        font-size: 24px;
+        font-size: 28px;
+        padding: 15px 55px;
+    }
+    .section-2 .section-header .title {
+        font-size: 28px;
+        width: 80%;
     }
     .left-about img,
     .right-about img {
         width: 15px;
-    }
-    .about-text {
-        padding: 15px 55px;
     }
     #gooey-button {
         font-size: 1.5rem;
@@ -254,10 +253,6 @@
         -ms-flex-align: center;
         align-items: center;
     }
-    .section-2 .section-header .title {
-        font-size: 20px;
-        width: 80%;
-    }
     .slider {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -276,7 +271,10 @@
 
 @media screen and (max-width:475px) {
     .about-text {
-        font-size: 20px;
+        font-size: 24px;
+    }
+    .section-2 .section-header .title {
+        font-size: 24px;
     }
     .section-3 .title {
         font-size: 26px;
@@ -297,19 +295,14 @@
 
 @media screen and (max-width:375px) {
     .section-2 .section-header .title {
-        font-size: 18px;
+        font-size: 20px;
         width: 100%;
-    }
-    .about-text {
-        font-size: 18px;
     }
     .section-3 .title {
         font-size: 22px;
     }
     .about-text {
-        font-size: 14px;
-    }
-    .about-text {
+        font-size: 20px;
         padding: 15px 30px;
     }
     .slider {
