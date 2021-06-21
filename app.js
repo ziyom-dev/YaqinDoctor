@@ -58,9 +58,9 @@ $(function() {
 var arrLang = {
     'uz': {
         'thisLang': 'Uz',
-        'leftAbout': 'Xavotir olmang! Endi bularning barchasi uchun biz bormiz! Va eng muhimi, Biz mutlaqo bepul xizmat korsatamiz va umuman reytinq sotmaymiz! ',
+        'leftAbout': 'Xavotir olmang! Endi bularning barchasi uchun biz bormiz! Va eng muhimi, biz mutlaqo bepul xizmat korsatamiz va umuman reytinq sotmaymiz! ',
         'rightAbout': 'Shifokorni yoki protsedurani izlayapsizmi? Tahlillarni qayerda topshirishni bilmayapsizmi? Uyingizga yoki ishingizga yaqinini qidiriyapsizmi? Yoki narxlarni taqqoslashdan charchadingizmi? ',
-        'tryBtn': 'Sinab korish',
+        'tryBtn': 'Sinab ko’rish',
         'socialTitle': 'Sog’liqni saqlash haqida mavzulariga qiziqiyapsizmi?<br> Bizning blogimizni o’qing! Chunki bu biz bilan oson, quvnoq va qiziqarli!',
         'footerTitle': 'Biz sizning sog\'lig\'ingiz haqida qayg\'uramiz!',
     },
