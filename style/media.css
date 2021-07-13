@@ -34,10 +34,6 @@
 }
 
 @media screen and (max-width:1024px) {
-    header .navbar,
-    footer .navbar {
-        font-size: 16px;
-    }
     .copyright img,
     .telegram-link img {
         height: 22px;
@@ -102,10 +98,6 @@
         padding: 15px 10px;
         border-radius: 30px;
     }
-    header .navbar,
-    footer .navbar {
-        font-size: 14px;
-    }
     .copyright img,
     .telegram-link img {
         height: 20px;
@@ -157,10 +149,6 @@
     }
     .section-3 .title {
         font-size: 20px;
-    }
-    header .navbar,
-    footer .navbar {
-        font-size: 12px;
     }
     .copyright img,
     .telegram-link img {
