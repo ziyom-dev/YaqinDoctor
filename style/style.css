@@ -5,6 +5,11 @@
 * Browsers: last 4 version
 */
 
+.logo-border {
+    background: linear-gradient(90deg, rgba(0, 149, 215, 1) 0%, rgba(0, 184, 181, 1) 100%);
+    border-radius: 100%;
+}
+
 * {
     margin: 0;
     padding: 0;
