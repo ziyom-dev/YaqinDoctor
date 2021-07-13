@@ -1,0 +1,215 @@
+@media screen and (max-width:1440px) {
+    header,
+    footer {
+        height: 50px;
+    }
+    header .navbar,
+    footer .navbar {
+        font-size: 20px;
+    }
+    .copyright img,
+    .telegram-link img {
+        height: 24px;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .about-text {
+        font-size: 18px;
+    }
+    header,
+    footer {
+        height: 40px;
+    }
+    header .navbar,
+    footer .navbar {
+        font-size: 18px;
+    }
+    .doc-btn {
+        font-size: 1rem;
+    }
+    .social-list a {
+        width: 40px;
+        height: 40px;
+    }
+    section {
+        padding: 35px 0;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .block-container {
+        padding: 0 30px;
+    }
+    header .navbar,
+    footer .navbar {
+        font-size: 16px;
+    }
+    .copyright img,
+    .telegram-link img {
+        height: 20px;
+    }
+    .about {
+        column-gap: 50px;
+    }
+    .about-text {
+        font-size: 16px;
+        padding: 15px;
+    }
+    .social-list a {
+        width: 32px;
+        height: 32px;
+    }
+    .social-block>img {
+        width: 11px;
+    }
+    section {
+        padding: 25px 0;
+    }
+    .slider {
+        margin-top: 25px;
+    }
+    .slider .slider-item {
+        padding: 14px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .about {
+        column-gap: 20px;
+    }
+    .block-container {
+        padding: 0px 10px;
+    }
+    .about-text {
+        font-size: 12px;
+    }
+    .doc-btn {
+        font-size: 0.7rem;
+    }
+    header .navbar,
+    footer .navbar {
+        font-size: 14px;
+    }
+    header,
+    footer {
+        height: 30px;
+    }
+    .social-list a {
+        width: 25px;
+        height: 25px;
+        border-radius: 5px;
+    }
+    .section-3 .title {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    .right-about .about-text {
+        margin-right: 10px;
+        margin-bottom: 10px;
+        box-shadow: 10px 5px 0px 0px rgba(175, 233, 240, 1);
+    }
+    .left-about .about-text {
+        box-shadow: -10px 5px 0px 0px rgba(175, 233, 240, 1);
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .left-about img,
+    .right-about img {
+        width: 10px;
+    }
+    .social-block>img {
+        width: 8px;
+    }
+    .slider .slider-item {
+        padding: 10px;
+    }
+    section {
+        padding: 20px 0;
+    }
+    .slider {
+        margin-top: 20px;
+    }
+    header {
+        border-radius: 0px 0px 20px 20px;
+    }
+    footer {
+        border-radius: 20px 20px 0px 0px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .about {
+        flex-direction: column-reverse;
+    }
+    .left-block {
+        flex-direction: column-reverse;
+    }
+    .about-text.white {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .social-block {
+        width: max-content;
+        margin-left: auto;
+    }
+    .section-2 .section-header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .slider {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .slider .slider-item {
+        width: 45%;
+        padding: 14px;
+    }
+    .section-3 .title {
+        font-size: 24px;
+    }
+    .about-text {
+        font-size: 26px;
+    }
+    .doc-btn {
+        font-size: 1rem;
+    }
+    .social-list a {
+        width: 40px;
+        height: 40px;
+    }
+    .container {
+        max-width: 475px;
+    }
+}
+
+@media screen and (max-width:475px) {
+    .about-text {
+        font-size: 18px;
+    }
+    .social-list a {
+        width: 30px;
+        height: 30px;
+    }
+    .container {
+        max-width: 360px;
+    }
+    .doc-container {
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .about-text {
+        font-size: 16px;
+    }
+    .slider {
+        margin-top: 0px;
+    }
+    .block-container {
+        padding: 0px;
+    }
+    .container {
+        max-width: 320px;
+    }
+}
